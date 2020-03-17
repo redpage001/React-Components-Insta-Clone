@@ -15,6 +15,7 @@ const CommentSection = props => {
       {comments.map( data => (
         <Comment comment={data} />
         ))}
+        <CommentInput/>
     </div>
   );
 };
